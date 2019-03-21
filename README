@@ -1,0 +1,8 @@
+Storing the terraform.tfstate file in S3 and enabling statelock for the same to avoid concurrent apply on the main file.
+--step1--
+create S3 bucket 
+create dynamodb table with primary key as "LockID"
+--step2--
+in Main.tf file have to include terraform backend module for s3 in that we have to pass the all above details like s3 bucket name, key path name, dynamodb_table name and all.
+once done we can execute the main.t file.
+
