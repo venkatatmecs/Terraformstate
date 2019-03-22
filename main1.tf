@@ -1,3 +1,4 @@
+#invoke the resource id from remote sate file
 provider "aws" {
   access_key = ""
   secret_key = ""
