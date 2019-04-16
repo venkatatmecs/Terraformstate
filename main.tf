@@ -5,7 +5,7 @@ profile = "venkat"
 #secret_key = ""
 region = "us-east-1"
 }
-
+#backend setup
 #terraform {
  #backend "s3" {
  #   bucket = "terraformstatefile12345"
